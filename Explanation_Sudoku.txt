@@ -1,0 +1,37 @@
+ 
+1. Imports: 
+    - `import java.util.Arrays;`: Imports the `Arrays` class from the `java.util` package for array-related operations.
+    - `import java.util.Scanner;`: Imports the `Scanner` class from the `java.util` package for user input.
+
+2. Constants:
+    - `SIZE`: Defines the size of the Sudoku grid.
+    - `BOX_SIZE`: Defines the size of each box in the Sudoku grid.
+    - `POSSIBLE_VALUES`: Defines the possible values in a Sudoku grid.
+
+3. Main Method:
+    - Reads the initial Sudoku puzzle input from the user.
+    - Displays the entered Sudoku puzzle.
+    - Enters a loop to repeatedly prompt the user for actions until they choose to exit.
+
+4. Input Validation Methods:
+    - `isValidInput(String input)`: Validates the input string for Sudoku puzzle values.
+    - `isValidCellInput(String cell)`: Validates the input string for cell coordinates.
+
+5. Display Method:
+    - `displaySudoku(int[][] puzzle)`: Displays the Sudoku puzzle grid.
+
+6. Menu-Driven Actions:
+    - `provideAnswer(Scanner scanner, int[][] puzzle)`: Allows the user to provide an answer for a specific cell by analyzing possible hints.
+    - `checkAnotherCell(Scanner scanner, int[][] puzzle)`: Allows the user to check the values in a specific cell's row, column, and box.
+    - `resetPuzzle(int[][] puzzle)`: Resets the Sudoku puzzle to its initial state.
+    - `isValidAnswer(int[] possibleAnswers, int answer)`: Validates the user-provided answer against the possible answers for the cell.
+
+7. Helper Methods:
+    - `cellToCoordinates(String cell)`: Converts a cell input string to row and column coordinates.
+    - `getRowValues(int[][] puzzle, int row)`: Retrieves the values in the specified row of the Sudoku grid.
+    - `getColumnValues(int[][] puzzle, int col)`: Retrieves the values in the specified column of the Sudoku grid.
+    - `getBoxValues(int[][] puzzle, int row, int col)`: Retrieves the values in the box containing the specified cell.
+    - `generateHints(int[] values)`: Generates hints based on the values in a row, column, or box.
+    - `computePossibleAnswers(int[] rowHints, int[] colHints, int[] boxHints)`: Computes possible answers based on hints from the row, column, and box.
+
+Overall, the code provides a comprehensive Sudoku puzzle program with features for input validation, menu-driven actions, hint generation, and puzzle analysis. It allows users to interactively solve Sudoku puzzles while ensuring correctness and providing helpful feedback.

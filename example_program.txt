@@ -1,0 +1,83 @@
+ Sudoku Puzzle Program Example 
+Please provide the Sudoku problem with the Sudoku values.
+Please enter the values for each row in the following format (example: 000100200)
+Please enter value for Row #1: 000100200
+Please enter value for Row #2: 200400000
+Please enter value for Row #3: 600000000
+Please enter value for Row #4: 000801007
+Please enter value for Row #5: 010020030
+Please enter value for Row #6: 700060000
+Please enter value for Row #7: 500000300
+Please enter value for Row #8: 000070400
+Please enter value for Row #9: 003900000
+
+Entered Sudoku Puzzle:
+0 0 0 | 1 0 0 | 2 0 0 
+2 0 0 | 4 0 0 | 0 0 0 
+6 0 0 | 0 0 0 | 0 0 0 
+- - - - - - - - - - -
+0 0 0 | 8 0 1 | 0 0 7 
+0 1 0 | 0 2 0 | 0 3 0 
+7 0 0 | 0 6 0 | 0 0 0 
+- - - - - - - - - - -
+5 0 0 | 0 0 0 | 3 0 0 
+0 0 0 | 0 7 0 | 4 0 0 
+0 0 3 | 9 0 0 | 0 0 0 
+
+What action do you like to perform?
+1. - Provide an answer for this cell
+2. - Check another cell 
+3. - Reset the Puzzle
+4. - Exit the application
+
+Please enter your choice: 1
+
+What cell would you like to provide an answer for? (e.g., G2): A1
+Row Hints: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+Column Hints: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+Box Hints: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+Possible Answer: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+Please provide the answer for the cell (1, 1): 5
+
+Invalid answer! Please enter a valid answer from the possible answers.
+
+What action do you like to perform?
+1. - Provide an answer for this cell
+2. - Check another cell 
+3. - Reset the Puzzle
+4. - Exit the application
+
+Please enter your choice: 1
+
+What cell would you like to provide an answer for? (e.g., G2): A1
+
+Row Hints: [1, 1, 1, 1, 1, 1, 1, 1, 1]
+Column Hints: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+Box Hints: [0, 0, 0, 0, 0, 0, 0, 0, 0]
+Possible Answer: [1, 0, 0, 0, 0, 0, 0, 0, 0]
+Please provide the answer for the cell (1, 1): 1
+
+Answer assigned successfully!
+
+What action do you like to perform?
+1. - Provide an answer for this cell
+2. - Check another cell 
+3. - Reset the Puzzle
+4. - Exit the application
+
+Please enter your choice: 2
+
+What cell would you like to analyze? (e.g., G2): A1
+
+Row Values: [1, 0, 0, 1, 0, 0, 2, 0, 0]
+Column Values: [1, 2, 6, 0, 0, 7, 5, 0, 0]
+Box Values: [1, 0, 0, 0, 0, 0, 2, 0, 0]
+
+What action do you like to perform?
+
+1. - Provide an answer for this cell
+2. - Check another cell 
+3. - Reset the Puzzle
+4. - Exit the application
+
+Please enter your choice: 4
